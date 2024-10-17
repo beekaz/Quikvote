@@ -1,0 +1,103 @@
+.auth-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: var(--section-color);
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.auth-container:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.auth-container h2 {
+    color: var(--tex-color);
+    margin-bottom: 20px;
+}
+
+.auth-container p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.auth-container a {
+    color: #ec8d10;
+    /* color: #ffdc5e; */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.auth-container a:hover {
+    color: var(--tex-color);
+}
+
+/* Form Styling */
+.form-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #b5e2fa;
+    background-color: transparent;
+    outline: none;
+    color: #333;
+    font-size: 1rem;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.form-control:focus {
+    border-bottom: 2px solid #ec8d10;
+}
+
+::placeholder {
+    color: #999;
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+.form-control:focus::placeholder {
+    opacity: 0;
+}
+
+/* Button Styling */
+
+#login-button {
+    background-color: var(--snd-bf-color);
+}
+
+#login-button:hover {
+    background-color: var(--nav-color);
+    color: var(--tex-color);
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--bg-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.9s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #cc6d15;
+    color: #000;
+}
+
+/* Error Message */
+.auth-container p[style] {
+    color: red;
+    margin-top: 10px;
+}
