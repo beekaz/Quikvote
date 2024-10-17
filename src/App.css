@@ -1,0 +1,67 @@
+/* Primary Color #0047AB 
+Main color for headers,
+buttons,
+and highlights (Trustworthy Blue) 
+Secondary Color #FF4C4C Accent color for calls to action (Bright Red) 
+
+Background Color #F5F5F5 Background color for the app (Light Gray) 
+
+Text Color #333333 
+Primary text color (Dark Gray) 
+Success Color #28A745 Color for success messages or confirmations (Green) 
+Warning Color #FFC107 Color for warnings or alerts (Amber) 
+
+Link Color #007BFF Color for hyperlinks (Blue) */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto; 
+}
+.root{
+  background-color: whitesmoke;
+}
+:root {
+  --yellow-color:#5F3907;
+  /* --yellow-color: #ec8d10; */
+  --nav-color:#778da9;
+  --bg-color: #F9F9F9;
+  --section-color: #9eb0c9;
+  --span-color: #007bff;
+
+  /* --section-color:  #b1b1b1; */
+  --snd-bf-color: #1f253f;
+  --text-color: #ffff;
+  --tex-color: #000814;
+  --main-color: #1045f4;
+
+  /* button */
+  --button-color: #007BFF
+}
+
+/* h2 {
+  text-align: center;
+  margin-bottom: 40px;
+} */
+
+.section {
+  padding: 60px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* .btn {
+  padding: 10px 20px;
+  font-size: 16px;
+} */
