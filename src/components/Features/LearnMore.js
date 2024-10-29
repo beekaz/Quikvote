@@ -5,7 +5,7 @@ const LearnMore = () => {
   return (
     <section id='learn-more' className='text-center my-5'>
       <h2 className='mb-4'>Learn More</h2>
-      <div className='video-container mb-5'>
+      {/* <div className='video-container mb-5'> */}
         {/* I tried this it didnt work */}
 
         {/* <iframe
@@ -17,7 +17,7 @@ const LearnMore = () => {
           allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
           allowFullScreen
         /> */}
-      </div>
+      {/* </div> */}
       <h3 className='mb-4'>Elections, Simplified</h3>
       <p className='mb-5'>
         QuikVote makes voting easier and more secure than ever before. Here’s

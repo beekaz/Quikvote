@@ -71,7 +71,7 @@ const Navbar = ({ isAuthenticated, setIsAuthenticated }) => {
                   </Link>
                 </li>
                 <li>
-                  <Link className='nav-link' to='how-it-works'>
+                  <Link className='nav-link' to='/how-it-works'>
                     HowItWorks
                   </Link>
                 </li>
