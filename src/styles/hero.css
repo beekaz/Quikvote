@@ -1,6 +1,6 @@
  .hero {
      /* background: url('../../assets//images/create_vote2.jpg') no-repeat center center;    background-size: cover; */
-     background: var(--section-color);
+     /* background: var(--section-color); */
      height: 100vh;
      display: flex;
      justify-content: center;

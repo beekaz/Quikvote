@@ -1,0 +1,23 @@
+// src/services/electionService.js
+import { db } from "../Firebase/index";
+import { collection, addDoc, getDocs } from "firebase/firestore";
+
+// Reference to the elections collection
+const electionsCollection = collection(db, "elections");
+
+// Function to save election data to Firestore
+export const saveElection = async (electionData) => {
+  try {
+    await addDoc(electionsCollection, electionData);
+    console.log("Election saved successfully!");
+  } catch (error) {
+    console.error("Error saving election: ", error);
+  }
+};
+
+// Function to fetch all elections from Firestore
+export const getElections = async () => {
+  const electionSnapshot = await getDocs(electionsCollection);
+  return electionSnapshot.docs.map((doc) => ({ id: doc.id, ...doc.data() }));
+};
+ 

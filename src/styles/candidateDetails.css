@@ -1,0 +1,22 @@
+.candidate-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.candidate-photo {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+h3 {
+    margin-top: 20px;
+}

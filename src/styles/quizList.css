@@ -1,0 +1,33 @@
+/* src/modules/QuizList.css */
+.quiz-list {
+    text-align: center;
+    padding: 20px;
+}
+
+.quiz-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.quiz-card {
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    padding: 20px;
+    width: 200px;
+    transition: transform 0.2s;
+}
+
+.quiz-card:hover {
+    transform: scale(1.05);
+}
+
+.quiz-card h2 {
+    margin: 0;
+}
+
+.quiz-card p {
+    margin: 10px 0 0;
+}

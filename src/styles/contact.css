@@ -1,0 +1,69 @@
+.contact {
+    background-color: #f7f9fc;
+    /* Light background color for the contact section */
+    padding: 50px 0;
+    /* Vertical padding for the section */
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    /* Larger font size for the heading */
+    margin-bottom: 20px;
+    /* Space below the heading */
+    color: #333;
+    /* Darker color for contrast */
+}
+
+.contact p {
+    font-size: 1.2rem;
+    /* Slightly larger font size for the paragraph */
+    color: #555;
+    /* Gray color for the paragraph text */
+    margin-bottom: 40px;
+    /* Space below the paragraph */
+}
+
+.contact .form-group {
+    margin-bottom: 20px;
+    /* Space below each form group */
+}
+
+.contact .form-control {
+    border: 1px solid #ced4da;
+    /* Light border color */
+    border-radius: 5px;
+    /* Slightly rounded corners */
+    padding: 15px;
+    /* Padding inside the input fields */
+    transition: border-color 0.3s;
+    /* Transition effect on border color */
+}
+
+.contact .form-control:focus {
+    border-color: #007bff;
+    /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    /* Add shadow effect on focus */
+}
+
+.contact button {
+    background-color: #007bff;
+    /* Primary button color */
+    color: white;
+    /* Text color for the button */
+    border: none;
+    /* Remove border */
+    border-radius: 5px;
+    /* Rounded corners */
+    padding: 10px 20px;
+    /* Padding for the button */
+    font-size: 1rem;
+    /* Font size for the button */
+    transition: background-color 0.3s;
+    /* Transition effect for background color */
+}
+
+.contact button:hover {
+    background-color: #0056b3;
+    /* Darker button color on hover */
+}

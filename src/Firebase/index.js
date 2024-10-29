@@ -12,6 +12,9 @@ const firebaseConfig = {
   messagingSenderId: process.env.REACT_APP_FIREABSE_MESSAGING_SENDER_ID,
   appId: process.env.REACT_APP_FIREABSE_APP_ID,
   measurementId: process.env.REACT_APP_FIREABSE_MEASUREMENT_ID,
+
+
+
 };
 
 // Initialize Firebase
@@ -21,3 +24,5 @@ export const analytics = getAnalytics(app);
 export const auth = getAuth(app);
 export default app;
 export const storage = getStorage(app);
+
+

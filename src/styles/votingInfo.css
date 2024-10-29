@@ -1,0 +1,76 @@
+.blur {
+    filter: blur(5px);
+    opacity: 0.6;
+    transition: filter 0.3s ease, opacity 0.3s ease;
+}
+
+.card-content:hover {
+    transform: translateY(-5px);
+    background-color: #aabbce;
+    padding: 2rem 2rem 2rem;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.9);
+    border-radius: 2rem;
+}
+
+.voting-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #aebbc9;
+    padding: 20px;
+}
+
+.content-wrapper {
+    max-width: 800px;
+    width: 100%;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* border-radius: 5px;
+        border: none;
+        font-size: 1.2rem;
+        transition: background-color 0.3s ease, color 0.3s ease; */
+
+
+
+.nav-tabs .nav-link:hover {
+    background-color: #ffdc5e;
+    color: #000;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #324d7e;
+    color: #000;
+
+}
+
+.voter-steps {
+    list-style: none;
+    padding-left: 0;
+}
+
+.voter-steps li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.step-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #324d7e;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.voter-steps p {
+    margin: 0;
+    padding-left: 10px;
+}

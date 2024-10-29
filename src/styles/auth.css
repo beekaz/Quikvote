@@ -1,0 +1,77 @@
+.auth-container {
+    max-width: 400px;
+    /* Max width of the form */
+    margin: 50px auto;
+    /* Center the form on the page */
+    padding: 20px;
+    /* Padding for the container */
+    background-color: #f7f9fc;
+    /* Light background color */
+    border-radius: 5px;
+    /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+}
+
+.auth-container h2 {
+    text-align: center;
+    /* Center the heading */
+    margin-bottom: 20px;
+    /* Space below the heading */
+}
+
+.auth-container .form-group {
+    margin-bottom: 20px;
+    /* Space below each form group */
+}
+
+.auth-container .form-control {
+    border: 1px solid #ced4da;
+    /* Light border color */
+    border-radius: 5px;
+    /* Slightly rounded corners */
+    padding: 10px;
+    /* Padding inside the input fields */
+    width: 100%;
+    /* Full width for inputs */
+    transition: border-color 0.3s;
+    /* Transition effect on border color */
+}
+
+.auth-container .form-control:focus {
+    border-color: #007bff;
+    /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    /* Add shadow effect on focus */
+}
+
+.auth-container button {
+    background-color: #007bff;
+    /* Primary button color */
+    color: white;
+    /* Text color for the button */
+    border: none;
+    /* Remove border */
+    border-radius: 5px;
+    /* Rounded corners */
+    padding: 10px 20px;
+    /* Padding for the button */
+    font-size: 1rem;
+    /* Font size for the button */
+    width: 100%;
+    /* Full width for buttons */
+    transition: background-color 0.3s;
+    /* Transition effect for background color */
+}
+
+.auth-container button:hover {
+    background-color: #0056b3;
+    /* Darker button color on hover */
+}
+
+.auth-container p {
+    text-align: center;
+    /* Center the paragraph text */
+    margin-top: 15px;
+    /* Space above the paragraph */
+}

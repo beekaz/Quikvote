@@ -1,0 +1,32 @@
+.survey-list {
+    text-align: center;
+    padding: 20px;
+}
+
+.survey-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.survey-card {
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    padding: 20px;
+    width: 200px;
+    transition: transform 0.2s;
+}
+
+.survey-card:hover {
+    transform: scale(1.05);
+}
+
+.survey-card h2 {
+    margin: 0;
+}
+
+.survey-card p {
+    margin: 10px 0 0;
+}

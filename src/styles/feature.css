@@ -1,0 +1,42 @@
+.features-section {
+    background-color: #f8f9fa;
+    /* Light background */
+    padding: 50px 0;
+    /* Padding for the section */
+}
+
+.features-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.features-section p {
+    font-size: 1.25rem;
+    margin-bottom: 40px;
+}
+
+.feature-card {
+    background-color: #ffffff;
+    /* White background for cards */
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    /* Light shadow */
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+    /* Add a slight animation effect */
+}
+
+.feature-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.feature-card p {
+    font-size: 1rem;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    /* Move the card up slightly on hover */
+}

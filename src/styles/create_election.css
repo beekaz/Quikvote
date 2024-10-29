@@ -1,0 +1,26 @@
+.dropdown-toggle {
+    background-color: #001845 !important;
+    border: none;
+    color: #000;
+    /* transition: background-color 0.3s ease; */
+
+}
+
+.create-election-btn:hover {
+    background-color: var(--span-color) !important;
+    transform: scale(1.05);
+}
+
+.dropdown-menu {
+    background-color: #98aafc !important;
+    border-radius: 5px;
+}
+
+.dropdown-item {
+    color: #000;
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa;
+    color: #333;
+}

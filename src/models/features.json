@@ -1,0 +1,27 @@
+[
+  {
+    "icon": "faUserCheck",
+    "title": "Secure Voting",
+    "description": "Each voter has a unique 'Voter ID' and 'Voter Key' and can only vote once."
+  },
+  {
+    "icon": "faMobileAlt",
+    "title": "Mobile Ready",
+    "description": "Elections are optimized for desktop and mobile devices. Voters can vote from a web browser or our iOS & Android apps."
+  },
+  {
+    "icon": "faEnvelope",
+    "title": "Email Ballots",
+    "description": "Provide an optional email address for your voters and we'll notify them when your election launches."
+  },
+  {
+    "icon": "faChartBar",
+    "title": "Results Tabulation",
+    "description": "Elections results are automatically calculated and displayed in real-time."
+  },
+  {
+    "icon": "faHeadset",
+    "title": "Amazing Support",
+    "description": "Have a question? Need help? Our support team is here to assist you."
+  }
+]

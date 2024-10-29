@@ -1,0 +1,17 @@
+.survey-container {
+    padding: 20px;
+}
+
+.survey-question {
+    margin-bottom: 15px;
+}
+
+.survey-option {
+    margin: 10px 0;
+}
+
+textarea {
+    width: 100%;
+    height: 60px;
+    margin-top: 10px;
+}

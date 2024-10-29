@@ -104,8 +104,143 @@ body {
 .animated-shapes {
     position: relative;
     width: 150px;
+    /* Adjust width for your preference */
     height: 150px;
+    /* Adjust height for your preference */
 }
+
+.shape {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.6;
+    animation: float 4s ease-in-out infinite;
+}
+
+.shape1 {
+    width: 50px;
+    height: 50px;
+    background: #ff4081;
+    top: 20%;
+    left: 10%;
+    animation-delay: 0s;
+}
+
+.shape2 {
+    width: 70px;
+    height: 70px;
+    background: #3f51b5;
+    top: 50%;
+    left: 60%;
+    animation-delay: 1s;
+}
+
+.shape3 {
+    width: 90px;
+    height: 90px;
+    background: #ffeb3b;
+    top: 10%;
+    left: 80%;
+    animation-delay: 2s;
+}
+
+.voting-icon {
+    font-size: 3em;
+    color: #6a11cb;
+    animation: bounce 1.5s infinite;
+    position: absolute;
+}
+
+.icon1 {
+    top: 20%;
+    left: 30%;
+    animation: bounce 1.5s infinite;
+    animation-delay: 0.5s;
+}
+
+.icon2 {
+    top: 50%;
+    left: 40%;
+    animation: bounce 1.5s infinite;
+    animation-delay: 1s;
+}
+
+.icon3 {
+    top: 70%;
+    left: 70%;
+    animation: bounce 1.5s infinite;
+    animation-delay: 1.5s;
+}
+
+
+.animated-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: float 3s ease-in-out infinite;
+}
+
+.icon {
+    font-size: 2rem;
+    /* Adjust size as needed */
+    margin: 0 10px;
+    /* Space between icons */
+    animation: bounce 1s infinite;
+    /* Example animation */
+}
+
+@keyframes float {
+    0% {
+        transform: translatey(0);
+    }
+
+    50% {
+        transform: translatey(-10px);
+    }
+
+    100% {
+        transform: translatey(0);
+    }
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+/* Animation keyframes */
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Signup card styles remain unchanged */
 .signup-card {
     background-color: var(--section-color);
     border-radius: 10px;
